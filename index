@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DERIVA</title>
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Futura, "Futura PT", "Futura Std", "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    img {
+      max-width: 90vw;
+      max-height: 85vh;
+      object-fit: contain;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+
+    .caption {
+      color: white;
+      margin-top: 18px;
+      font-size: 22px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="giphy.gif" alt="DERIVA" />
+    <div class="caption">DERIVA</div>
+  </div>
+</body>
+</html>
